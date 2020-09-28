@@ -10,47 +10,47 @@
   // outoforder = optional message to display in top-left of county page, indicating that this county data are questionable
   // exceptlayers = skip these layers when loading the data profile, for counties to opt-out from individual layers
   const PARTICIPATING_COUNTIES = [
-    { countyfp: "013", name:"Barrow", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "015", name:"Bartow", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "021", name:"Bibb", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "031", name:"Bulloch", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "039", name:"Camden", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "045", name:"Carroll", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "047", name:"Catoosa", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "051", name:"Chatham", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "057", name:"Cherokee", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "059", name:"Clarke", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "063", name:"Clayton", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "067", name:"Cobb", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "073", name:"Columbia", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "077", name:"Coweta", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "089", name:"DeKalb", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "095", name:"Dougherty", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "097", name:"Douglas", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "103", name:"Effingham", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "113", name:"Fayette", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "115", name:"Floyd", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "117", name:"Forsyth", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "121", name:"Fulton", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "127", name:"Glynn", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "129", name:"Gordon", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "135", name:"Gwinnett", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "139", name:"Hall", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "151", name:"Henry", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "153", name:"Houston", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "157", name:"Jackson", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "179", name:"Liberty", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "185", name:"Lowndes", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "215", name:"Muscogee", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "217", name:"Newton", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "223", name:"Paulding", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "245", name:"Richmond", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "247", name:"Rockdale", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "255", name:"Spalding", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "285", name:"Troup", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "295", name:"Walker", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "297", name:"Walton", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
-    { countyfp: "313", name:"Whitfield", profile: 'lite', outoforder:"Polling location modeling will be provided for this county soon", datafootnote: "", exceptlayers: [] },
+    { countyfp: "013", name:"Barrow", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "015", name:"Bartow", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "021", name:"Bibb", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "031", name:"Bulloch", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "039", name:"Camden", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "045", name:"Carroll", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "047", name:"Catoosa", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "051", name:"Chatham", profile: 'fullmodel',outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "057", name:"Cherokee", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "059", name:"Clarke", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "063", name:"Clayton", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "067", name:"Cobb", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "073", name:"Columbia", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "077", name:"Coweta", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "089", name:"DeKalb", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "095", name:"Dougherty", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "097", name:"Douglas", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "103", name:"Effingham", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "113", name:"Fayette", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "115", name:"Floyd", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "117", name:"Forsyth", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "121", name:"Fulton", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "127", name:"Glynn", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "129", name:"Gordon", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "135", name:"Gwinnett", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "139", name:"Hall", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "151", name:"Henry", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "153", name:"Houston", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "157", name:"Jackson", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "179", name:"Liberty", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "185", name:"Lowndes", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "215", name:"Muscogee", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "217", name:"Newton", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "223", name:"Paulding", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "245", name:"Richmond", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "247", name:"Rockdale", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "255", name:"Spalding", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "285", name:"Troup", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "295", name:"Walker", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "297", name:"Walton", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
+    { countyfp: "313", name:"Whitfield", profile: 'fullmodel', outoforder:"", datafootnote: "", exceptlayers: [] },
   ];
   
   const getParticipatingCountyInfo = function (countyfp) {
@@ -174,7 +174,7 @@ const DATA_LAYERS = {};
 
 DATA_LAYERS.four_day_sites = {
     id: 'four_day_sites',
-    title: "Suggested Areas for 4 Day Vote Centers",
+    title: "Suggested Areas for Election Day Voting Locations",
     csvfile: 'model_files/four_day_sites.csv',
     circle: { radius: 400, opacity: 0.8, color: 'black', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 },
     quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -184,7 +184,7 @@ DATA_LAYERS.four_day_sites = {
 };
 DATA_LAYERS.eleven_day_sites = {
     id: 'eleven_day_sites',
-    title: "Suggested Areas for 11 Day Vote Centers",
+    title: "Suggested Areas for Early Voting Locations",
     csvfile: 'model_files/eleven_day_sites.csv',
     circle: { radius: 400, opacity: 0.8, color: 'black', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 },
     quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -214,7 +214,7 @@ DATA_LAYERS.all_sites_scored = {
   };
   DATA_LAYERS.additional_sites_model = {
     id: 'additional_sites_model',
-    title: "Additional Vote Center Options Based on Model",
+    title: "Additional Voting Location Options Based on Model",
     csvfile: 'model_files/additional_sites_model.csv',
     circle: { radius: 400, opacity: 0.8, color: 'blue', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 },
     quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -224,7 +224,7 @@ DATA_LAYERS.all_sites_scored = {
   };
   DATA_LAYERS.additional_sites_distance = {
     id: 'additional_sites_distance',
-    title: "Additional Vote Center Options Based on Distance",
+    title: "Additional Voting Location Options Based on Distance",
     csvfile: 'model_files/additional_sites_distance.csv',
     circle: { radius: 400, opacity: 0.8, color: 'blue', weight: 1, fillColor: 'quantile', fillOpacity: 0.8 },
     quantilefield: 'center_score', quantilecolors: SCORING_COLOR_RAMP, breaksource: 'sitescores', // because fillColor == quantile
@@ -457,7 +457,7 @@ DATA_LAYERS.all_sites_scored = {
       DATA_LAYERS.prc_black, DATA_LAYERS.prc_asian, DATA_LAYERS.prc_latino, DATA_LAYERS.prc_white,
     ],
     pointsofinterest: [
-      DATA_LAYERS.pricenter2020,DATA_LAYERS.poi_govish, DATA_LAYERS.poi_misc, DATA_LAYERS.poi,
+      DATA_LAYERS.pripoll2020,DATA_LAYERS.poi_govish, DATA_LAYERS.poi_misc, DATA_LAYERS.poi,
     ],
   };
   
