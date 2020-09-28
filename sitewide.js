@@ -234,11 +234,11 @@ DATA_LAYERS.additional_sites_distance = {
 };
 DATA_LAYERS.pripoll2020 = {
     id: 'pripoll2020',
-    title: "2020 Primary Polling Place Locations",
+    title: "2020 Presidential Primary Polling Place Locations",
     csvfile: 'point_files/primary_pollingplaces_2020.csv',
     circle: { radius: 10, color: 'black', fillColor: 'gray', fillOpacity: 0.6, opacity: 0.6, },
     popupnamefield: 'name',
-    popuptypetext: '2020 Primary Polling Place Location',
+    popuptypetext: '2020 Presidential Primary Polling Place Location',
     downloadfile: 'point_files/primary_pollingplaces_2020.csv',
 };
 DATA_LAYERS.pricenter2020 = {
